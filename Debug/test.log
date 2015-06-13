@@ -1,0 +1,53 @@
+﻿Build started 4/5/2015 2:42:49 AM.
+     1>Project "D:\WORK\PROJECTS\C++\IRIS\test\test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\PROGRAMS\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\PROGRAMS\OPENCV 2.4\opencv\build\include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt create_gabor.cpp variables.cpp
+         variables.cpp
+         create_gabor.cpp
+     1>create_gabor.cpp(37): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(45): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(46): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(56): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>create_gabor.cpp(58): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>create_gabor.cpp(95): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(96): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(127): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(212): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(213): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(254): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(255): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(283): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(324): error C2664: 'void cv::resize(cv::InputArray,cv::OutputArray,cv::Size,double,double,int)' : cannot convert argument 1 from 'CvMat *' to 'cv::InputArray'
+                 Reason: cannot convert from 'CvMat *' to 'const cv::_InputArray'
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>create_gabor.cpp(353): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(354): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(394): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(395): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(422): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(461): error C2664: 'void cv::resize(cv::InputArray,cv::OutputArray,cv::Size,double,double,int)' : cannot convert argument 1 from 'CvMat *' to 'cv::InputArray'
+                 Reason: cannot convert from 'CvMat *' to 'const cv::_InputArray'
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>create_gabor.cpp(498): warning C4244: '=' : conversion from 'const double' to 'int', possible loss of data
+     1>create_gabor.cpp(506): warning C4244: '=' : conversion from 'const double' to 'int', possible loss of data
+     1>create_gabor.cpp(563): error C2664: 'void cv::resize(cv::InputArray,cv::OutputArray,cv::Size,double,double,int)' : cannot convert argument 1 from 'CvMat *' to 'cv::InputArray'
+                 Reason: cannot convert from 'CvMat *' to 'const cv::_InputArray'
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>create_gabor.cpp(600): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(621): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(622): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(630): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(649): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(650): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(659): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(661): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(663): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>create_gabor.cpp(696): error C2664: 'void cv::resize(cv::InputArray,cv::OutputArray,cv::Size,double,double,int)' : cannot convert argument 1 from 'CvMat *' to 'cv::InputArray'
+                 Reason: cannot convert from 'CvMat *' to 'const cv::_InputArray'
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+         Generating Code...
+     1>Done Building Project "D:\WORK\PROJECTS\C++\IRIS\test\test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.66
